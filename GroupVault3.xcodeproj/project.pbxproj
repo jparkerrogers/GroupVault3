@@ -1,0 +1,371 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		31FC6BD6DBFAA166280E56D7 /* Pods_GroupVault3.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A41073BEB0101335D2F76EE2 /* Pods_GroupVault3.framework */; };
+		AC9620A51D41733D0033C1FE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9620A41D41733D0033C1FE /* AppDelegate.swift */; };
+		AC9620A71D41733D0033C1FE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9620A61D41733D0033C1FE /* ViewController.swift */; };
+		AC9620AA1D41733D0033C1FE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC9620A81D41733D0033C1FE /* Main.storyboard */; };
+		AC9620AC1D41733D0033C1FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC9620AB1D41733D0033C1FE /* Assets.xcassets */; };
+		AC9620AF1D41733D0033C1FE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC9620AD1D41733D0033C1FE /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0FC36A9B252F52B4BF4666C4 /* Pods-GroupVault3.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GroupVault3.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GroupVault3/Pods-GroupVault3.debug.xcconfig"; sourceTree = "<group>"; };
+		A41073BEB0101335D2F76EE2 /* Pods_GroupVault3.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GroupVault3.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC9620A11D41733D0033C1FE /* GroupVault3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GroupVault3.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC9620A41D41733D0033C1FE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AC9620A61D41733D0033C1FE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AC9620A91D41733D0033C1FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AC9620AB1D41733D0033C1FE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AC9620AE1D41733D0033C1FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AC9620B01D41733D0033C1FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA26D57B08364F4A7BC7D30A /* Pods-GroupVault3.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GroupVault3.release.xcconfig"; path = "Pods/Target Support Files/Pods-GroupVault3/Pods-GroupVault3.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AC96209E1D41733D0033C1FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31FC6BD6DBFAA166280E56D7 /* Pods_GroupVault3.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		21161CA4741821FF1E640E1C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A41073BEB0101335D2F76EE2 /* Pods_GroupVault3.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AC9620981D41733D0033C1FE = {
+			isa = PBXGroup;
+			children = (
+				AC9620A31D41733D0033C1FE /* GroupVault3 */,
+				AC9620A21D41733D0033C1FE /* Products */,
+				FABAB685B1035741FCD24D74 /* Pods */,
+				21161CA4741821FF1E640E1C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		AC9620A21D41733D0033C1FE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AC9620A11D41733D0033C1FE /* GroupVault3.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AC9620A31D41733D0033C1FE /* GroupVault3 */ = {
+			isa = PBXGroup;
+			children = (
+				AC9620A41D41733D0033C1FE /* AppDelegate.swift */,
+				AC9620A61D41733D0033C1FE /* ViewController.swift */,
+				AC9620A81D41733D0033C1FE /* Main.storyboard */,
+				AC9620AB1D41733D0033C1FE /* Assets.xcassets */,
+				AC9620AD1D41733D0033C1FE /* LaunchScreen.storyboard */,
+				AC9620B01D41733D0033C1FE /* Info.plist */,
+			);
+			path = GroupVault3;
+			sourceTree = "<group>";
+		};
+		FABAB685B1035741FCD24D74 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0FC36A9B252F52B4BF4666C4 /* Pods-GroupVault3.debug.xcconfig */,
+				DA26D57B08364F4A7BC7D30A /* Pods-GroupVault3.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AC9620A01D41733D0033C1FE /* GroupVault3 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC9620B31D41733D0033C1FE /* Build configuration list for PBXNativeTarget "GroupVault3" */;
+			buildPhases = (
+				B3CC5EFE4330FCF144116E3B /* [CP] Check Pods Manifest.lock */,
+				AC96209D1D41733D0033C1FE /* Sources */,
+				AC96209E1D41733D0033C1FE /* Frameworks */,
+				AC96209F1D41733D0033C1FE /* Resources */,
+				CD2FEFFB01D728322DCCF5CD /* [CP] Embed Pods Frameworks */,
+				A3348F4009D0EBA1F463ADB5 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GroupVault3;
+			productName = GroupVault3;
+			productReference = AC9620A11D41733D0033C1FE /* GroupVault3.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AC9620991D41733D0033C1FE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Jonathan Rogers";
+				TargetAttributes = {
+					AC9620A01D41733D0033C1FE = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = AC96209C1D41733D0033C1FE /* Build configuration list for PBXProject "GroupVault3" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AC9620981D41733D0033C1FE;
+			productRefGroup = AC9620A21D41733D0033C1FE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AC9620A01D41733D0033C1FE /* GroupVault3 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AC96209F1D41733D0033C1FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC9620AF1D41733D0033C1FE /* LaunchScreen.storyboard in Resources */,
+				AC9620AC1D41733D0033C1FE /* Assets.xcassets in Resources */,
+				AC9620AA1D41733D0033C1FE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A3348F4009D0EBA1F463ADB5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GroupVault3/Pods-GroupVault3-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B3CC5EFE4330FCF144116E3B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		CD2FEFFB01D728322DCCF5CD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GroupVault3/Pods-GroupVault3-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AC96209D1D41733D0033C1FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC9620A71D41733D0033C1FE /* ViewController.swift in Sources */,
+				AC9620A51D41733D0033C1FE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AC9620A81D41733D0033C1FE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC9620A91D41733D0033C1FE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AC9620AD1D41733D0033C1FE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC9620AE1D41733D0033C1FE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AC9620B11D41733D0033C1FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AC9620B21D41733D0033C1FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AC9620B41D41733D0033C1FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0FC36A9B252F52B4BF4666C4 /* Pods-GroupVault3.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GroupVault3/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Devmountain.GroupVault3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AC9620B51D41733D0033C1FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA26D57B08364F4A7BC7D30A /* Pods-GroupVault3.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GroupVault3/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Devmountain.GroupVault3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AC96209C1D41733D0033C1FE /* Build configuration list for PBXProject "GroupVault3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC9620B11D41733D0033C1FE /* Debug */,
+				AC9620B21D41733D0033C1FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC9620B31D41733D0033C1FE /* Build configuration list for PBXNativeTarget "GroupVault3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC9620B41D41733D0033C1FE /* Debug */,
+				AC9620B51D41733D0033C1FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AC9620991D41733D0033C1FE /* Project object */;
+}
